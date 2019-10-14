@@ -8,9 +8,8 @@ import * as listView from './views/listView';
 import * as likesView from './views/likesView';
 import { elements, renderLoader, clearLoader } from './views/base';
 
-const state = {
+const state = {};
 
-};
 const controlSearch = async () => {
     const query = searchView.getInput();
 
